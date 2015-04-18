@@ -1,0 +1,179 @@
+<!--
+To change this template use Tools | Templates.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <!-- Modernizr -->
+    <script type="text/javascript" src="js/vendor/modernizr.js"></script>
+    <!-- Site uber stylesheet: (minified) -->
+    <link href="css/site-uber-style.min.css" rel="stylesheet">
+</head>
+
+<body class="bracket">
+    <header class="bracket-hero">
+        <div class="hero-wrap">
+            <p class="intro" id="intro">NCAA</p>
+            <h1 id="headline">Tournament</h1>
+            <p class="year"><i class="fa fa-star"></i> 2015 <i class="fa fa-star"></i></p>
+            <p>March Madness</p>
+        </div>
+    </header>
+    <section id="bracket">
+        <p class="spinner text-center">
+            <i class="fa fa-spinner fa-spin fa-3x"></i>
+        </p>
+        <div class="row first-four">
+            <h2>First Four</h2>
+        </div>
+        <div class="row">
+            <div class="small-6 columns region south">
+                <h2 class="region-title">South Region</h2>
+                <ul class="small-block-grid-4 region-wrap">
+                    <li class="round round-2">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 64</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-3">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 32</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-4">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Sweet 16</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-5">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Elite 8</h3></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="small-6 columns region west">
+                <h2 class="region-title">West Region</h2>
+                <ul class="small-block-grid-4 region-wrap">
+                    <li class="round round-5">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Elite 8</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-4">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Sweet 16</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-3">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 32</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-2">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 64</h3></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row final-four">
+            <div class="small-12 columns">
+                <div class="row">
+                    <div class="small-4 columns" id="game-601">
+                        <h2>South vs East</h2>
+                    </div>
+                    <div class="small-4 columns" id="game-701">
+                        <i class="fa fa-trophy"></i>
+                        <h2>Championship</h2>
+                    </div>
+                    <div class="small-4 columns" id="game-602">
+                        <h2>West vs Midwest</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-6 columns region east">
+                <h2 class="region-title">East Region</h2>
+                <ul class="small-block-grid-4 region-wrap">
+                    <li class="round round-2">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 64</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-3">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 32</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-4">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Sweet 16</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-5">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Elite 8</h3></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="small-6 columns region midwest">
+                <h2 class="region-title">Midwest Region</h2>
+                <ul class="small-block-grid-4 region-wrap">
+                    <li class="round round-5">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Elite 8</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-4">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Sweet 16</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-3">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 32</h3></li>
+                        </ul>
+                    </li>
+                    <li class="round round-2">
+                        <ul class="round-games">
+                            <li class="round-header">
+                                <h3>Round of 64</h3></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- before </body> -->
+    <!-- load jquery before core js -->
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <!-- <script type="text/javascript" src="js/vendor/jquery.cookie.js"></script> -->
+    <!-- Angluar js (if needed) -->
+    <!--<script type="text/javascript" src="js/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="js/vendor/angular-resource.min.js"></script>-->
+    <script type="text/javascript" src="js/vendor/moment.min.js"></script>
+    <!-- Core js file: (minified) -->
+    <script type="text/javascript" src="js/site-core.min.js"></script>
+</body>
+
+</html>

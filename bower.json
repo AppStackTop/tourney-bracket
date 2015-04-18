@@ -1,0 +1,10 @@
+{
+  "name": "foundation-and-grunt",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "fontawesome": "~4.3.0",
+    "angular": "latest",
+    "angular-resource": "latest",
+    "moment": "~2.9.0"
+  }
+}
